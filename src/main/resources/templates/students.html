@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Home</title>
+</head>
+<body>
+	<h1>Hello world!</h1>
+	<P>
+	<!-- Su dung Thymeleaf -->
+		Student name:  <label th:text="${student_name}"></label><br/>
+		Student clazz:  <label th:text="${student_clazz}"></label><br/>
+		Student scores:  <label th:text="${student_scores}"></label><br/>
+		Student Address:  <label th:text="${student_address_street}"></label><br/>
+		Student Address:  <label th:text="${student_address_city}"></label><br/>
+	</P>
+</body>
+</html>
